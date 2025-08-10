@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.parent-container{
+  position: relative;
+}
+.bot-position {
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left: 93%;
+}
+.watchlist-open{
+  position: absolute;
+    top: -1%;
+    transition: 0.7s;
+}
+.watchlist-close{
+  position: absolute;
+    top: -290%;
+    transition: 0.7s;
+    
+}
+/* .watchlist-open{
+  background-color: rgba(0, 0, 0, 0.377);
+  height: -10vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+} */
+/* .watchlist-close{
+ background-color: rgba(0, 0, 0, 0.377);
+  height: 93vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  margin-top: -600;
+} */
+
+  

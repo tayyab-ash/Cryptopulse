@@ -1,0 +1,140 @@
+.disc-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.disc-pic1 img{
+    width: 340px;
+}
+.disc-theory{
+    width: 60%;
+}
+.disc-theory p{
+    /* width:800px; */
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.disc-data2 p{
+    padding: 10px 62px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.disc-data2 span{
+   font-size: 20px;
+   color: #ffc011;
+}
+.ket-points span{
+    font-size: 20px;
+   color: #ffc011;
+}
+.ket-points p{
+    padding: 10px 62px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.disc-data3{
+    padding: 10px 62px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.disc-pic2 img{
+    width: 290px;
+}
+.dsic-data4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding: 30px 0;
+}
+.disc-theory2{
+  width: 60%;
+}
+.disc-theory2 p{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.disc-theory2 h3{
+   color: #ffc011;
+}
+.disc-data5 {
+    padding: 10px 62px;
+}
+.disc-data5 p{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.disc-data5 span{
+   color: #ffc011;
+   font-size: 20px;
+}
+.disc-main h2{
+    background-color: #ffc011;
+    padding: 5px;
+    margin: 0 70px;
+}
+.disc-data6 p{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.disc-data6 {
+    padding: 10px 62px;
+}
+.disc-data6 span{
+    color: #ffc011;
+    font-size: 20px;
+}
+@media (max-width : 1024px){
+    .disc-data{
+        gap: 20px;
+    }
+    .disc-pic1 img{
+        width: 240px;
+    }
+    .disc-theory p{
+        line-height: 35px;
+    }
+    .disc-pic2 img{
+        width: 230px;
+    }
+    .dsic-data4{
+        gap: 60px;
+        
+    }
+}
+@media (max-width : 796px){
+    .disc-data{
+        gap: 0;
+    }
+    .disc-pic1 img{
+        width: 180px;
+    }
+    .disc-main p{
+        line-height: 25px;
+    }
+    .disc-pic2 img{
+        width: 180px;
+    }
+    .dsic-data4{
+        gap: 20px;
+        
+    }
+}
+@media (max-width : 600px){
+    .disc-pic1 img{
+        display: none;
+    }
+   
+}
+@media (max-width : 480px){
+    .disc-main h2{
+       font-size: 17px;
+    }
+    .disc-pic2 img{
+       display: none;
+    }
+   
+}
+
+

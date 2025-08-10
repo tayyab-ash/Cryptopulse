@@ -1,0 +1,13 @@
+.diff{
+    padding: 0 73px;
+    margin: 147px 0 ;
+}
+.accordion-button{
+    background-color: rgba(2, 1, 1, 0.479);
+    color: white;
+}
+.accordion{
+    --bs-accordion-active-bg:rgb(43, 43, 43);
+    --bs-accordion-active-color:#facb4a;
+    --bs-accordion-btn-focus-box-shadow:none;
+}

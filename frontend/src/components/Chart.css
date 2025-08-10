@@ -1,0 +1,24 @@
+.day-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+.loader-div{
+    margin: 0 330px;
+}
+.chart-setting{
+    width: 100%;
+    height: 500px 
+}
+@media (max-width : 984px) {
+    .chart-setting{
+       height: 100%;
+    }
+    .day-buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

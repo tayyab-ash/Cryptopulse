@@ -1,0 +1,49 @@
+.mover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+/* .mrg{
+    margin-top: 10px;
+} */
+.ptc{
+    font-size: 1rem;
+}
+.ptc1{
+    font-size: 0.8rem;
+}
+.coinimg{
+    width: 70px;
+}
+.bordered-text {
+    position: relative;
+}
+
+.bordered-text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid black; /* You can adjust the width and color of the border */
+    pointer-events: none; /* Ensures the border doesn't interfere with mouse events */
+}
+
+@media (max-width : 480px) {
+    .arrange{
+        padding: 8px 30px;
+    }
+    .coinimg{
+        width: 50px;
+    }
+    .ptc{
+        font-size: 0.7rem;
+    }
+    .ptc1{
+        font-size: 0.5rem;
+    }
+
+}

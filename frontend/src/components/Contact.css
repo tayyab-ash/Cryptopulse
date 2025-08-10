@@ -1,0 +1,151 @@
+.maindivcontactpage{
+    margin-top: 110px;
+}
+/* Faqs css start here------- */
+
+.acimg img{
+    width: 480px;
+}
+.mainaccordiondiv{
+    background-color: rgba(114, 110, 110, 0.082);
+}
+.divaccordion {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 190px;
+   
+
+}
+.divac1{
+    width: 550px;
+}
+.accordion button{
+    background-color: transparent ;
+    
+}
+.accordion button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='rgb(255, 192, 17)' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/%3E%3C/svg%3E");
+    
+}
+
+.accordion button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='rgb(255, 192, 17)' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/%3E%3C/svg%3E");
+    
+}
+.accordion{
+    background-color: transparent;
+    /* width:550px */
+}
+.accordion-item {
+  background-color: transparent !important;
+}
+.accordion-header {
+    background-color: transparent;
+}
+
+
+.accordion-body{
+    background-color: transparent;
+}
+.accordion button:not(.collapsed){
+    background-color: transparent;
+}
+/* contact us css start here---- */
+
+.contactheading img{
+    width: 300px;
+}
+.contactform{
+    width: 550px;
+}
+.divcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 330px;
+    margin-bottom: 22px;
+}
+.contactdata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    margin-left: 40px;
+}
+.contactheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactlinks{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+/* responsiveneess start here--- */
+@media (max-width : 1024px) {
+    .divaccordion {
+       gap: 100px;
+    }
+    .acimg img{
+        width: 380px;
+    }
+    .divcontact{
+        gap: 100px;
+    }
+    .divac1{
+        width: 450px;
+    }
+    .contactform{
+        width: 450px;
+    }
+
+
+}
+@media (max-width : 796px) {
+    
+     .acimg img{
+         display: none;
+     }
+     .divcontact{
+         gap: 10px;
+     }
+     .divac1{
+        width: 350px;
+        margin-right: 60px;
+    }
+     .contactheading img{
+        width: 200px;
+    }
+     .contactheading span{
+        font-size: 15px;
+    }
+    .contactform{
+        width: 350px;
+    }
+
+}
+@media (max-width : 480px) {
+    
+      .divac1{
+        width: 250px;
+        margin-right: 80px;
+    }
+     .contactheading img{
+        display: none;
+    }
+     .contactheading span{
+        font-size: 14px;
+    }
+    .divcontact{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactform{
+        width: 250px;
+    }
+
+}

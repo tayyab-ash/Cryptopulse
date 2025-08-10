@@ -1,0 +1,223 @@
+.heading {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 435px;
+}
+
+.coindata {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.bar input {
+    background-color: rgba(78, 78, 78, 0.103);
+    border: 2px solid #ffc011;
+    height: 40px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 0 10px;
+    outline: none;
+}
+
+
+
+.gl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.gl a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dataname {
+    background-color: rgba(90, 89, 89, 0.116);
+    padding: 15px 0;
+    border-radius: 10px;
+    width: 91%;
+    
+}
+.idt{
+    margin-right: 220px;
+}
+/* data fetching start here------------------------------------------------------- */
+
+
+.fetchdata {
+    border-top: 1px solid #ffc011;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 18px 0;
+    font-size: 15px
+}
+.wd{
+    width: 89%;
+    margin-top: 5px;
+}
+.wd a{
+   text-decoration: none;
+}
+/* name area---------------------------------------------- */
+.token {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.token img {
+    width: 45px;
+}
+.symbl{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: flex-start;
+   width: 120px;
+}
+/* price----------------------------- */
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* pagination------------------------------ */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    gap: 6px;
+    margin: 15px 0;
+}
+.pagecss{
+    border: 1px solid #ffc011;
+    padding: 0 10px;
+    border-radius: 6px;
+    background-color: #ffc011;
+    font-size: 14px;
+}
+.totalpagecss{
+    border: 1px solid #ffc011;
+    padding: 0 6px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.giffer-div{
+ margin: 216px 0;
+ margin-left: 610px;
+}
+@media (max-width : 1024px) {
+    
+    .heading {
+        gap: 210px;
+    }
+    .heading h3 {
+       font-size: 1.6rem;
+    }
+    .heading input{
+        width: 350px;
+    }
+    .hide-6 {
+        display: none;
+        
+    }
+
+}
+@media (max-width : 842px) {
+    
+    .heading {
+        gap: 140px;
+    }
+    .heading h3 {
+       font-size: 1.4rem;
+    }
+    .heading input{
+        width: 300px;
+    }
+
+}
+@media (max-width : 780px) {
+    
+    .hide-5 {
+        display: none;
+        
+    }
+    .heading {
+        gap: 70px;
+    }
+
+}
+@media (max-width : 640px) {
+    
+    .heading {
+        gap: 50px;
+    }
+    .heading h3 {
+       font-size: 1.2rem;
+    }
+    .heading input{
+        width: 250px;
+    }
+    .hide-4{
+        display: none;
+    }
+    .dataname .row .col-3{
+        width: 200px;
+    }
+
+}
+@media (max-width : 480px) {
+    
+    .heading {
+        gap: 20px;
+    }
+    .heading h3 {
+       font-size: 1rem;
+    }
+    .heading input{
+        width: 170px;
+    }
+
+}
+@media (max-width : 380px) {
+    .heading {
+        gap: 10px;
+    }
+    .heading h3 {
+        font-size: 0.8rem;
+     }
+     .heading input{
+        width: 150px;
+    }
+    
+   .wd .col {
+    text-align: start;
+   }
+   .hide-3{
+    display: none;
+   }
+   .fetchdata {
+   
+    gap: 130px;
+    padding: 18px 0;
+}
+
+}

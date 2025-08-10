@@ -1,0 +1,63 @@
+.lgn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-login {
+  box-shadow: 0px 15px 12px 0px rgba(36, 36, 36, 0.37);
+  border-radius: 10px;
+  height: 490px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 13px;
+  padding: 0 25px;
+}
+
+.lgn-png {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-login button {
+  padding: 13px;
+}
+
+.main-login img {
+  width: 60px;
+}
+
+.no-account {
+  text-align: center;
+}
+.btn a{
+  text-decoration: none;
+  color: black;
+}
+.btn{
+  font-size: 18px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: #ffc011;
+  padding: 0 2em;
+  border-radius: 0.3em;
+  color: #fff;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.btn:hover {
+  box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px grey;
+  transform: translateY(-0.1em);
+}
+
+.btn:active {
+  box-shadow: inset 0px 0.1em 0.6em black;
+  transform: translateY(0em);
+}

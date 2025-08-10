@@ -1,0 +1,58 @@
+.uperbar{
+    /* background-color: rgb(66, 66, 66); */
+    background-color: rgb(233, 230, 230);
+    height: 350px;
+    width: 650px;
+    border: 2px solid #ffc011;
+    border-radius: 10px ;
+   overflow-y: scroll;
+   
+}
+.watchlist{
+    /* background-color: rgba(0, 0, 0, 0.377); */
+    /* background-color: rgba(197, 196, 196, 0.377); */
+    height: 93vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+}
+.close-btn{
+   position: absolute   ;
+   margin-left: 615px;
+   margin-top: 10px;
+   font-size: 22px;
+   cursor: pointer;
+}
+.watchlist-area{
+    display: flex;
+    padding: 0 20px;
+     gap: 10px;
+     flex-wrap: wrap;
+}
+.watchlist-item{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background-color: rgba(0, 0, 0, 0.226); */
+ /* background-color: rgba(255, 255, 255, 0.322); */
+ width: 190px;
+ padding: 10px 0;
+ border-radius: 20px;
+ gap: 8px;
+}
+.watchlist-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    height: 100px;
+}
+.delete-btn{
+    position: absolute;
+    margin-bottom: 80px;
+    margin-left: 145px;
+}
+
